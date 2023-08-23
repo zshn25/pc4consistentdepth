@@ -8,9 +8,7 @@ This is the reference PyTorch implementation for training and testing temporally
 >
 > [SCIA 2023 (arXiv pdf)](https://arxiv.org/pdf/2304.08916), [Video](https://youtu.be/AN1AGR85N2A), [Blog](https://zshn25.github.io/pc4consistentdepth/)
 
-<p align="center">
-  <img src="https://zshn25.github.io/images/3dreco/out.gif" alt="example input output gif" width="600" />
-</p>
+[kitti](https://zshn25.github.io/images/3dreco/out.gif)
 
 
 ## ⚙️ Requirements
@@ -29,7 +27,7 @@ Then, you're ready to go.
 
 ## 👩‍⚖️ License
 
-The `pc4consistentdepth_trainer.py` code is released under MIT License, Copyright © Denso ADAS Engineering Services GmbH, 2023.
+The `pc4consistentdepth_trainer.py` code is released under MIT License, Copyright © Zeeshan Khan Suri, Denso ADAS Engineering Services GmbH, 2023.
 
 `so3_utils.py` is taken from [Pytorch3D](https://pytorch3d.org/), with it's respective [BSD-style license](https://github.com/facebookresearch/pytorch3d/blob/main/LICENSE).
 
