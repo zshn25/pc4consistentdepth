@@ -17,13 +17,18 @@ from so3_utils import (so3_relative_angle, so3_rotation_angle)  # Pytorch3D func
 
 
 def invert_transformation(T):
-    """Return inverted 4x4 transformation
+    """Return inverted 4x4 SE3 transformation matrix
     """
 
-    R = T[..., :3, :3].transpose(-2, -1)
+    R = T[..., :3, :3]
     t = T[..., :-1, -1]
 
-    return torch.matmul(R, get_translation_matrix(-t))
+    T_inverted = torch.zeros_like(T)
+    T_inverted[..., :3, :3] = R.transpose(-2, -1)
+    T_inverted[..., :-1, -1] = -t
+    T_inverted[..., -1, -1] = 1
+
+    return T_inverted
 
 
 class Trainer(trainer.Trainer):
