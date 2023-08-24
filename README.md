@@ -6,7 +6,9 @@ This is the reference PyTorch implementation for training and testing temporally
 >
 > [Zeeshan Khan Suri](https://www.linkedin.com/in/zshn25/)
 >
-> [SCIA 2023 (arXiv pdf)](https://arxiv.org/pdf/2304.08916), [Video](https://youtu.be/AN1AGR85N2A), [Blog](https://zshn25.github.io/pc4consistentdepth/)
+> [![website](https://img.shields.io/badge/Website-Explore%20Now-blueviolet?style=flat&logo=google-chrome)](https://zshn25.github.io/pc4consistentdepth/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2304.08916)
+[![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://youtu.be/AN1AGR85N2A)
 
 ![kitti](https://github.com/zshn25/zshn25.github.io/blob/286a579afb8807ead1e98fd07ca353206f50d282/images/3dreco/out.gif)
 
